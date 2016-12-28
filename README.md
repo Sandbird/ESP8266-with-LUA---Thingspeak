@@ -29,6 +29,7 @@ apiKey = "Thingspeak apikey"
 - Find you router in the list then use that name and password in the fields bellow and press save.
 - Done. The ESP will create a config file (config.lc) and reboot. It will then connect to the selected router, and update your Thingspeak channel every 10 minutes with the temp value.
 - If for any reason it cant find the router on reboot, it will delete the conf file and go back into setup mode.
+- There is also the option to manually update the Thingspeak channel, or get the Temp value from your browser. Just find the local ip address of the ESP and go to that address on your mobile (ex: http://192.168.1.64). You'll have the options to get the Temperature, refresh the page, or delete the config file.
 
 #### Example connections
 ![Schematic](https://raw.githubusercontent.com/Sandbird/ESP8266-with-LUA---Thingspeak/master/schematic.png)
