@@ -28,7 +28,7 @@ apiKey = "Thingspeak apikey"
 - Connect to ESP8266-Setup, then open your browser and go to : http://192.168.0.1 (if you need to change this address edit run_config.lua)
 - Find you router in the list then use that name and password in the fields bellow and press save.
 - Done. The ESP will create a config file (config.lc) and reboot. It will then connect to the selected router, and update your Thingspeak channel every 10 minutes with the temp value.
-- If for any reason it cant find the router on reboot, it will delete the conf file and back back into setup mode.
+- If for any reason it cant find the router on reboot, it will delete the conf file and go back into setup mode.
 
 #### Example connections
 ![Schematic](https://raw.githubusercontent.com/Sandbird/ESP8266-with-LUA---Thingspeak/master/schematic.png)
